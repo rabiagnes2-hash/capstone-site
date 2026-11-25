@@ -5,7 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Contact Me - Agnes Rabi</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,6 +15,7 @@
 
     <header>
         <nav class="navbar" aria-label="Main navigation">
+
             <span class="logo">RABI.A</span>
 
             <div class="nav-links">
@@ -21,21 +24,35 @@
                 <a href="projects.html" class="nav-link">Projects</a>
                 <a href="contact.html" class="nav-link active">Contact</a>
             </div>
+
         </nav>
     </header>
+
+    <!-- DARK MODE BUTTON -->
+    <button
+        type="button"
+        id="themeToggle"
+        class="theme-toggle"
+        aria-pressed="false">
+        Switch to Dark Mode
+    </button>
 
     <main>
 
         <section class="contact-intro">
+
             <h1>Contact Me</h1>
+
             <p>
                 Thank you for visiting my portfolio.
                 You are welcome to contact me using the
                 information or form below.
             </p>
+
         </section>
 
         <section class="contact-information">
+
             <h2>+27 63 868 8323</h2>
 
             <p>
@@ -45,12 +62,14 @@
 
             <p>
                 <strong>Location:</strong>
-                224C President Mbeki Dr 
+                224C President Mbeki Dr
                 Metanoia Company
             </p>
+
         </section>
 
         <section class="contact-form-section">
+
             <h2>Send Me a Message</h2>
 
             <form id="contactForm">
@@ -72,6 +91,7 @@
                 >
 
                 <label for="topic">Topic:</label>
+
                 <select id="topic" name="topic" required>
                     <option value="">Choose a topic</option>
                     <option value="general">General Enquiry</option>
@@ -80,6 +100,7 @@
                 </select>
 
                 <label for="message">Message:</label>
+
                 <textarea
                     id="message"
                     name="message"
@@ -90,6 +111,7 @@
                 <button type="submit">Send Message</button>
 
             </form>
+
         </section>
 
     </main>
